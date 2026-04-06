@@ -1,0 +1,23 @@
+algoritmo "Maioridade"
+
+var
+  nome : caractere
+  idade : inteiro
+
+inicio
+  escreval("Digite o seu nome: ")
+  leia(nome)
+  escreval("Informe a sua idade: ")
+  leia(idade)
+
+  se idade >=18 entao
+      escreval("Você, "+nome+" é maior de idade, ou seja, tem "+idade)
+      senao
+        escreval("Desculpe, você é menor de idade!!!")
+        fimse
+        se idade >=16 entao
+        escreval("você, "+nome+" pode votar, ou seja, tem "+idade)
+        fimse
+    
+
+  fimalgoritmo

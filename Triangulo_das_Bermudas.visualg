@@ -1,0 +1,30 @@
+algoritmo "Triangulo das Bermudas"
+
+var
+  ladoA, ladoB, ladoC : real
+
+inicio
+  Escreva("Digite o valor do lado A: ")
+  Leia(ladoA)
+ 
+  escreva("Digite o valor do lado B: ")
+  leia(ladoB)
+
+  escreva("Digite o valor do lado C: ")
+  leia(ladoC)
+
+  // Testar a condição de existencia de um triangulo
+  Se (ladoA < ladoB + ladoC) e (ladoB < ladoA + ladoC) e (ladoC < ladoA + ladoB) 
+  entao
+    Se(ladoA = ladoB) e (ladoB = ladoC) entao
+      escreva("Triangulo equilátero!!!")
+    Senao Se (ladoA = ladoB) ou (ladoB = ladoC) ou (ladoA = ladoC) entao
+      Escreva("Triangulo isósceles!!!")
+      senao
+      escreva("triangulo escaleno!!!")
+      fimse
+    Fimse
+  Senao
+      escreval("Não é tringulo")
+    fimse
+fimalgoritmo

@@ -1,0 +1,19 @@
+algoritmo "Primeiro Programa"
+
+var
+  Acima, Abaixo, numero : inteiro
+  
+
+inicio
+  escreval("Informe um numero")
+  leia(numero)
+  se numero < 0 entao
+  leia(abaixo)
+  senao
+  leia(acima)
+  fimse
+  escreval
+
+  
+
+fimalgoritmo

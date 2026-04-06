@@ -1,0 +1,16 @@
+algoritmo "maioriade"
+
+var
+  numero : inteiro
+
+inicio
+  escreval("Informe o seu numero: ")
+  leia(numero)
+  se numero >= 0 e numero <= 9 entao
+  escreval("O valor está na faixa permitida")
+  senao escreval ("O valor está fora da faixa permitida")
+  fimse
+
+  
+
+fimalgoritmo
